@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示联想记忆的网址内容 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <ImageView 
+		android:id="@+id/iv_link_item"
+		android:contentDescription="@android:attr/imageWellStyle"
+		android:src="@drawable/ic_earth"
+        android:layout_width="18dip"
+        android:layout_height="18dip"
+        android:layout_marginStart="11dp"
+        android:layout_gravity="center_vertical">
+    </ImageView>
+    
+    <LinearLayout 
+            android:layout_width="0dp"
+			android:layout_height="36dp"
+			android:layout_weight="1"
+			android:orientation="vertical"   
+			android:layout_marginStart="10dp" 
+            >
+            <TextView
+			    android:id="@+id/tv_link_title"
+				android:layout_width="match_parent"	
+				android:layout_height="wrap_content"
+			    android:background="@color/white"
+			    android:text="@null"
+			    android:singleLine="true"
+			    android:textColor="@color/black"
+			    android:textStyle="bold"
+			    android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_link_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+			    android:text="@null"
+			    android:singleLine="true"
+			    android:textColor="@color/color_gray_999999"
+			    android:textSize="14sp" />
+            </LinearLayout>
+</LinearLayout>

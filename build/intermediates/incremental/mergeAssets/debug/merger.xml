@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="D:\coding\FengBrowser\assets" >
+            <file
+                name="homepage.html"
+                path="D:\coding\FengBrowser\assets\homepage.html" />
+            <file
+                name="ic_error.png"
+                path="D:\coding\FengBrowser\assets\ic_error.png" />
+            <file
+                name="ic_logo.png"
+                path="D:\coding\FengBrowser\assets\ic_logo.png" />
+            <file
+                name="liblbs.so"
+                path="D:\coding\FengBrowser\assets\liblbs.so" />
+            <file
+                name="time_out_error.html"
+                path="D:\coding\FengBrowser\assets\time_out_error.html" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\coding\FengBrowser\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

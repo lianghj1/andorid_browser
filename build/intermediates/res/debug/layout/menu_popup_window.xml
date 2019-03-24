@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+        
+        <Button
+            android:id="@+id/bt_menu_bookmark"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_main_menu_bookmark"
+            android:text="@string/menu_bookmark"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_gray_797979"
+            android:textSize="12sp" />
+        
+        <Button
+            android:id="@+id/bt_menu_addbookmark"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_main_menu_addbookmark"
+            android:text="@string/menu_add_bookmark"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_gray_797979"
+            android:textSize="12sp" />
+        
+        <Button
+            android:id="@+id/bt_menu_history"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_main_menu_history"
+            android:text="@string/menu_history"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_gray_797979"
+            android:textSize="12sp" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+        
+        <Button
+            android:id="@+id/bt_menu_email"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_main_menu_email"
+            android:text="@string/menu_email"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_gray_797979"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_menu_download"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_main_menu_downloads"
+            android:text="@string/menu_download"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_gray_797979"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_menu_poweroff"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_main_menu_poweroff"
+            android:text="@string/menu_power_off"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_gray_797979"
+            android:textSize="12sp" />
+        
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_gray_e5e5e5" />
+
+</LinearLayout><!-- From: file:/D:/coding/FengBrowser/res/layout/menu_popup_window.xml -->

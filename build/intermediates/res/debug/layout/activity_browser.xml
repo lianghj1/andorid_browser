@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_f2f2f2"
+    style="@style/MyAppTheme"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:focusable="true"
+			android:focusableInTouchMode="true"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                android:alpha="0.5"
+                android:background="@drawable/ic_earth"
+                android:contentDescription="@string/app_name" />
+
+            <EditText
+                android:id="@+id/et_search_input_browser"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:clickable="true"
+                android:enabled="true"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:hint="@string/search_or_url"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:singleLine="true"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/color_gray_797979"
+                android:textColorHint="@color/color_blue_ABB9D6"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_refresh_browser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_refersh"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_web_loading_browser"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_bar_blue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+        <FrameLayout 
+         	android:id="@+id/x5_wv_parent_browser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+		                 
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_gray_e5e5e5" />
+
+    <LinearLayout
+        android:baselineAligned="false" 
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_back_browser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_arrow_left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_forward_browser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_arrow_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_menu_browser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_home_browser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_home" />
+        </LinearLayout>
+        
+	<!-- 时间不够，没办法完善多窗口功能 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_multi_windows_browser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_muti_window"
+                android:gravity="center"
+                android:text="@string/one"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/coding/FengBrowser/res/layout/activity_browser.xml -->

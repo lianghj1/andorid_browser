@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示已下载的内容 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="15dp" >
+
+    <ImageView 
+		android:id="@+id/iv_downloaded_item"
+		android:contentDescription="@android:attr/imageWellStyle"
+        android:layout_width="18dip"
+        android:layout_height="18dip">
+    </ImageView>
+    
+    <TextView
+	    android:id="@+id/tv_downloaded_item"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:gravity="center_horizontal"
+	    android:text="@null"
+	    android:singleLine="true"
+	    android:textColor="@color/color_gray_797979"
+	    android:textSize="14sp" />
+        
+</LinearLayout>

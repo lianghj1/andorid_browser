@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="D:\coding\FengBrowser\res" >
+            <file
+                name="progress_bar_blue"
+                path="D:\coding\FengBrowser\res\drawable\progress_bar_blue.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shape_rectangle_no_color"
+                path="D:\coding\FengBrowser\res\drawable\shape_rectangle_no_color.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shape_rectangle_white"
+                path="D:\coding\FengBrowser\res\drawable\shape_rectangle_white.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\coding\FengBrowser\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\coding\FengBrowser\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\coding\FengBrowser\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="file2"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\file2.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_arrow_left"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_arrow_left.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_arrow_right"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_arrow_right.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_bookmark_item"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_bookmark_item.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_earth"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_earth.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_go"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_go.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_home"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_home.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_listview_down"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_listview_down.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_listview_up"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_listview_up.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_logo"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_logo.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_main_menu_addbookmark"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_main_menu_addbookmark.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_main_menu_bookmark"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_main_menu_bookmark.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_main_menu_downloads"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_main_menu_downloads.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_main_menu_email"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_main_menu_email.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_main_menu_history"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_main_menu_history.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_main_menu_poweroff"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_main_menu_poweroff.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_menu.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_more"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_more.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_refersh"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_refersh.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_search"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_search.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_stop"
+                path="D:\coding\FengBrowser\res\drawable-xxhdpi\ic_stop.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_browser"
+                path="D:\coding\FengBrowser\res\layout\activity_browser.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_send_email"
+                path="D:\coding\FengBrowser\res\layout\activity_send_email.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_show_bookmark"
+                path="D:\coding\FengBrowser\res\layout\activity_show_bookmark.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_show_download"
+                path="D:\coding\FengBrowser\res\layout\activity_show_download.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_show_history"
+                path="D:\coding\FengBrowser\res\layout\activity_show_history.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="add_bookmark_item_popup_window"
+                path="D:\coding\FengBrowser\res\layout\add_bookmark_item_popup_window.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_link_item"
+                path="D:\coding\FengBrowser\res\layout\item_link_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_show_bookmark_item"
+                path="D:\coding\FengBrowser\res\layout\item_show_bookmark_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_show_downloaded_item"
+                path="D:\coding\FengBrowser\res\layout\item_show_downloaded_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_show_downloading_item"
+                path="D:\coding\FengBrowser\res\layout\item_show_downloading_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_show_download_group"
+                path="D:\coding\FengBrowser\res\layout\item_show_download_group.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_show_history_item"
+                path="D:\coding\FengBrowser\res\layout\item_show_history_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="link_popup_window"
+                path="D:\coding\FengBrowser\res\layout\link_popup_window.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_popup_window"
+                path="D:\coding\FengBrowser\res\layout\menu_popup_window.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="add_book_mark_item"
+                path="D:\coding\FengBrowser\res\menu\add_book_mark_item.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="browser"
+                path="D:\coding\FengBrowser\res\menu\browser.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="D:\coding\FengBrowser\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="send_email"
+                path="D:\coding\FengBrowser\res\menu\send_email.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="show_book_mark"
+                path="D:\coding\FengBrowser\res\menu\show_book_mark.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="show_download"
+                path="D:\coding\FengBrowser\res\menu\show_download.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="show_history"
+                path="D:\coding\FengBrowser\res\menu\show_history.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="D:\coding\FengBrowser\res\values\colors.xml"
+                qualifiers="" >
+                <color name="color_gray_f2f2f2" >#F2F2F2
+                </color>
+                <color name="color_half_transparent" >#b0000000
+                </color>
+                <color name="red" >#FF0000
+                </color>
+                <color name="color_gray_797979" >#797979
+                </color>
+                <color name="color_gray_e5e5e5" >#E5E5E5
+                </color>
+                <color name="color_gray_999999" >#999999
+                </color>
+
+                <drawable name="gray" >
+#35000000
+                </drawable>
+
+                <color name="black" >#000000
+                </color>
+                <color name="color_green_00cc00" >#00CC00
+                </color>
+                <color name="color_blue_ABB9D6" >#ABB9D6
+                </color>
+
+                <drawable name="transparent" >
+#00000000
+                </drawable>
+
+                <color name="color_gray_f9f9f9" >#F9F9F9
+                </color>
+                <color name="color_blue_01C6F3" >#01C6F3
+                </color>
+                <color name="transparent" >#00000000
+                </color>
+                <color name="color_gray_333333" >#333333
+                </color>
+                <color name="white" >#ffffff
+                </color>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values\ids.xml"
+                qualifiers="" >
+                <item
+                    name="decode_failed"
+                    type="id"/>
+                <item
+                    name="decode_succeeded"
+                    type="id"/>
+                <item
+                    name="restart_preview"
+                    type="id"/>
+                <item
+                    name="decode"
+                    type="id"/>
+                <item
+                    name="quit"
+                    type="id"/>
+                <item
+                    name="auto_focus"
+                    type="id"/>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values\strings.xml"
+                qualifiers="" >
+                <string name="menu_history" >历史纪录
+                </string>
+                <string name="menu_bookmark" >书签
+                </string>
+                <string name="menu_download" >下载
+                </string>
+                <string name="search_or_url" >搜索或输入网址
+                </string>
+                <string name="item_bookmark_add" >添加
+                </string>
+                <string name="menu_add_bookmark" >添加书签
+                </string>
+                <string name="menu_power_off" >退出
+                </string>
+                <string name="title_activity_browser" >BrowserActivity
+                </string>
+                <string name="title_activity_show_history" >ShowHistoryActivity
+                </string>
+                <string name="item_addressor" >发件：
+                </string>
+                <string name="item_recipient" >收件：
+                </string>
+                <string name="hint_input_content" >请输入邮件内容
+                </string>
+                <string name="menu_email" >发送邮件
+                </string>
+                <string name="hint_input_addressor" >请输入发件人邮箱
+                </string>
+                <string name="hint_input_recipient" >请输入收件人邮箱
+                </string>
+                <string name="item_email_cancel" >取消
+                </string>
+                <string name="item_email_send" >发送
+                </string>
+                <string name="item_bookmark_url" >网址
+                </string>
+                <string name="title_activity_show_download" >ShowDownloadActivity
+                </string>
+                <string name="hint_input_theme" >请输入邮件主题
+                </string>
+                <string name="action_settings" >设置
+                </string>
+                <string name="hint_input_password" >请输入邮箱密码
+                </string>
+                <string name="app_name" >FengBrowser
+                </string>
+                <string name="title_activity_send_email" >SendEmailActivity
+                </string>
+                <string name="title_download" >下载
+                </string>
+                <string name="item_password" >密码：
+                </string>
+                <string name="title_bookmark" >书签
+                </string>
+                <string name="title_history" >历史记录
+                </string>
+                <string name="status_waiting" >等待下载
+                </string>
+                <string name="title_activity_show_book_mark" >ShowBookMarkActivity
+                </string>
+                <string name="item_bookmark_cancel" >取消
+                </string>
+                <string name="search" >搜索
+                </string>
+                <string name="item_bookmark_title" >标题
+                </string>
+                <string name="title_send_email" >发送邮件
+                </string>
+                <string name="item_email_theme" >主题：
+                </string>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values\styles.xml"
+                qualifiers="" >
+
+                <style name="HalfTransparentStyle" >
+                    <item name="android:windowBackground">
+@color/color_half_transparent
+                    </item>
+                    <item name="android:windowIsTranslucent">
+true
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="MyAppTheme"
+                    parent="android:Theme.Holo.Light.NoActionBar" >
+                    <item name="android:windowBackground">
+@color/white
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:windowIsTranslucent">
+true
+                    </item>
+                </style>
+
+                <style name="Transparent" >
+                    <item name="android:windowBackground">
+@color/transparent
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <item name="android:windowIsTranslucent">
+true
+                    </item>
+                    <item name="android:windowAnimationStyle">
+@+android:style/Animation.Translucent
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\coding\FengBrowser\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="D:\coding\FengBrowser\build\generated\res\rs\debug" />
+        <source path="D:\coding\FengBrowser\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\coding\FengBrowser\build-types\debug\res" />
+    </dataSet>
+
+</merger>

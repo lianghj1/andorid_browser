@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/color_gray_e5e5e5"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:focusable="true"
+		android:focusableInTouchMode="true"	
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/item_bookmark_title"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+        <EditText
+            android:id="@+id/et_bookmark_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+			android:gravity="center_horizontal"
+			android:singleLine="true"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			style="@android:style/TextAppearance"
+			android:textColor="@color/color_blue_ABB9D6"
+			android:textSize="14sp"
+			android:hint="@null"
+            />
+    </LinearLayout>
+
+   <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/item_bookmark_url"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+        <EditText
+            android:id="@+id/et_bookmark_url"
+            style="@android:style/TextAppearance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+			android:gravity="center_horizontal"
+			android:singleLine="true"
+			android:textColor="@color/color_gray_797979"
+			android:textSize="14sp"
+			android:hint="@null"
+            />
+    </LinearLayout>
+    
+   <GridLayout
+        android:gravity="center"
+        android:rowCount="1"
+        android:columnCount="3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/bt_bookmark_add"
+            style="@android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_column="0"
+            android:background="@drawable/shape_rectangle_no_color"
+            android:text="@string/item_bookmark_add"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+		
+        <Button
+            android:id="@+id/bt_bookmark_cancel"
+            style="@android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_column="2"
+            android:background="@drawable/shape_rectangle_no_color"
+            android:text="@string/item_bookmark_cancel"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </GridLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_gray_e5e5e5" />
+
+</LinearLayout>

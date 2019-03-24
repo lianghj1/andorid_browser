@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示下载列表组（正在下载和已完成） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+    android:padding="15dp">
+    
+    <ImageView 
+		android:id="@+id/iv_group_icon"
+		android:contentDescription="@android:attr/imageWellStyle"
+        android:layout_width="30dip"
+        android:layout_height="30dip">
+    </ImageView>
+    
+    <TextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/color_blue_01C6F3"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

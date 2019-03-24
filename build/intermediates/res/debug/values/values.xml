@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/D:/coding/FengBrowser/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="black">#000000</color>
+    <color name="color_blue_01C6F3">#01C6F3</color>
+    <color name="color_blue_ABB9D6">#ABB9D6</color>
+    <color name="color_gray_333333">#333333</color>
+    <color name="color_gray_797979">#797979</color>
+    <color name="color_gray_999999">#999999</color>
+    <color name="color_gray_e5e5e5">#E5E5E5</color>
+    <color name="color_gray_f2f2f2">#F2F2F2</color>
+    <color name="color_gray_f9f9f9">#F9F9F9</color>
+    <color name="color_green_00cc00">#00CC00</color>
+    <color name="color_half_transparent">#b0000000</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/D:/coding/FengBrowser/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/coding/FengBrowser/res/values/colors.xml -->
+    <eat-comment />
+
+    <drawable name="gray">#35000000</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <!-- From: file:/D:/coding/FengBrowser/res/values/ids.xml -->
+    <eat-comment />
+
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <!-- From: file:/D:/coding/FengBrowser/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">设置</string>
+    <string name="app_name">FengBrowser</string>
+    <string name="hint_input_addressor">请输入发件人邮箱</string>
+    <string name="hint_input_content">请输入邮件内容</string>
+    <string name="hint_input_password">请输入邮箱密码</string>
+    <string name="hint_input_recipient">请输入收件人邮箱</string>
+    <string name="hint_input_theme">请输入邮件主题</string>
+    <string name="item_addressor">发件：</string>
+    <string name="item_bookmark_add">添加</string>
+    <string name="item_bookmark_cancel">取消</string>
+    <string name="item_bookmark_title">标题</string>
+    <string name="item_bookmark_url">网址</string>
+    <string name="item_email_cancel">取消</string>
+    <string name="item_email_send">发送</string>
+    <string name="item_email_theme">主题：</string>
+    <string name="item_password">密码：</string>
+    <string name="item_recipient">收件：</string>
+    <string name="menu_add_bookmark">添加书签</string>
+    <string name="menu_bookmark">书签</string>
+    <string name="menu_download">下载</string>
+    <string name="menu_email">发送邮件</string>
+    <string name="menu_history">历史纪录</string>
+    <string name="menu_power_off">退出</string>
+    <string name="search">搜索</string>
+    <string name="search_or_url">搜索或输入网址</string>
+    <string name="status_waiting">等待下载</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+    <string name="title_activity_send_email">SendEmailActivity</string>
+    <string name="title_activity_show_book_mark">ShowBookMarkActivity</string>
+    <string name="title_activity_show_download">ShowDownloadActivity</string>
+    <string name="title_activity_show_history">ShowHistoryActivity</string>
+    <string name="title_bookmark">书签</string>
+    <string name="title_download">下载</string>
+    <string name="title_history">历史记录</string>
+    <string name="title_send_email">发送邮件</string>
+    <!-- From: file:/D:/coding/FengBrowser/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="HalfTransparentStyle">
+        <item name="android:windowBackground">@color/color_half_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyAppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+</resources>

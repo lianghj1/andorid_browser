@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+<title>主页</title>
+</head>
+<style>
+* {padding: 0; margin: 0; box-sizing:border-box;}
+html{ -webkit-tap-highlight-color:rgba(0,0,0,0);height:100%; min-height:100%; }
+body {min-height:100%; background-color: #FFFFFF; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; max-width:100%; width: 600px;margin: auto;text-align: center;}
+#search_input{height:42px;width:95%;outline:none;border:none;font-size: 15px;background-color:transparent;color: #6C6C6C;}
+.search_part{margin-bottom:20px;}
+span {display: block;overflow: hidden;padding-left:5px;vertical-align:middle;}
+.box a {width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+.hint {color: #8C8C8C;font-size: 15px; word-wrap:break-word; overflow:auto; padding-top: 100px; text-align: center; margin: auto;}.bookmark_part {margin: 0 6%; padding: 10px 0}
+.frosted-glass{background-color: rgba(0, 0, 0, 0); position:fixed; left:0; top:0; width: 100%; height: 100%;z-index:-999;}
+.logo{font-size: 28px;white-space: normal;word-wrap: break-word; text-decoration:none; color: #6C6C6C;}
+.search.icon {color: #666666; width: 12px; height: 12px; border: solid 2px currentColor; border-radius: 100%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); text-align: center; margin: auto; } .search.icon:before {content: ''; position: absolute; top: 10px; left: 3px; height: 5px; width: 2px; background-color: currentColor; }
+img.smaller{height: 80px;min-height:80px; object-fit: cover; max-height:50%;}
+#content{position: absolute; top: 20%; max-width: 600px;width: 100%;}
+.search_bar{display:table; vertical-align:middle;width:90%;height:42px;max-width:600px;margin:0 auto; margin-top: 15px;border-bottom:1px solid rgba(0, 0, 0, 0.1);background: transparent;}
+#search_submit{display: none;outline:none;height:42px; width: 42px;float:right;color: #6C6C6C;font-size:15px; font-weight:bold; border:none; background-color:transparent; padding: 0 10px 0 10px;}
+.box {position:relative;display: inline-block;width: 75px;border: 0; margin-bottom: 15px;}
+.title {color: #6C6C6C;width:3.4em;line-height: 3.4em;height: 3.4em;font-size: 15px;white-space: nowrap;overflow: hidden;margin:auto;text-overflow: ellipsis;-o-text-overflow: ellipsis;-ms-text-overflow: ellipsis;}
+.url {height: 1.5em;line-height: 1.5em;width: 72px;color: #8C8C8C;font-size: 11px;white-space: nowrap;overflow: hidden;margin: auto;text-overflow: ellipsis;-o-text-overflow: ellipsis;-ms-text-overflow: ellipsis;}
+.bookmark_part {width:90%; max-width:600px; background-color: transparent; margin: 0 auto; padding: 0; border-radius: 0px;}
+</style>
+<body>
+<div class='frosted-glass'></div>
+<div id="content">
+
+<div class="search_part">
+<a class="logo">
+<img class="smaller" src="file:///android_asset/ic_logo.png"></img>
+</a>
+<form onsubmit="return search()" class="search_bar">
+<button onclick="search()" id="search_submit" value="" ><div class="search icon"></div></button>
+<span><input class="search" onfocus="showButton()" onblur="hideButton()" type="text" value="" placeholder="搜索" autocomplete="off" id="search_input" ></span>
+</form>
+</div>
+
+<script type="text/javascript">
+function showButton() {document.getElementById("search_submit").style.display = "block"; } function hideButton() {var key = document.getElementById("search_input").value; if (key == "") {document.getElementById("search_submit").style.display = "none"; } } function search(){var key = document.getElementById("search_input").value; if(key != ""){window.location.href="https://www.baidu.com/s?wd="+key; document.getElementById("search_input").value = ""; } return false; }
+</script>
+
+</div>
+</body>
+</html>
